@@ -1,0 +1,128 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2019 SP2.0. Build: 4471
+                Computer name:   DESKTOP-65CHA6T
+                User name:   Chadb
+                Processors:   Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+                Memory:   16302 MB / 134217727 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.19042)
+                CAD version:   SOLIDWORKS 2019 SP2.0
+                CPU speed:   3600 MHz
+
+    General Info
+                Model:   Master assy.SLDASM
+                Project name:   FlowStudy
+                Project path:   E:\UOD\HaggisAerospace\haggisAero-2020\CAD\1
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (exclude internal spaces)
+                Exclude cavities without flow conditions :   On
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   Off
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Free surface:   Off
+                Default roughness:   0 micrometer
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -2.000 m
+                X max:   2.000 m
+                Y min:   -1.000 m
+                Y max:   1.500 m
+                Z min:   -2.000 m
+                Z max:   1.000 m
+                X size:   4.000 m
+                Y size:   2.500 m
+                Z size:   3.000 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   108
+                Number of cells in Y:   61
+                Number of cells in Z:   88
+
+        Number Of Cells
+                Cells:   588191
+                Fluid cells:   588191
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   1
+
+    Goals
+
+        Global Goals
+
+            GG Minimum Velocity (Z) 1
+                Type:   Global Goal
+                Goal type:   Velocity (Z)
+                Calculate:   Minimum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Average Velocity (Z) 1
+                Type:   Global Goal
+                Goal type:   Velocity (Z)
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Maximum Velocity (Z) 1
+                Type:   Global Goal
+                Goal type:   Velocity (Z)
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Force (Y) 1
+                Type:   Global Goal
+                Goal type:   Force (Y)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Force (Z) 1
+                Type:   Global Goal
+                Goal type:   Force (Z)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+        Surface Goals
+
+            SG Force (Y) 1
+                Type:   Surface Goal
+                Goal type:   Force (Y)
+                Faces:   Face<3>@Mirrorwing assy-3/Mirrorhalf wing-1, Face<4>@Mirrorwing assy-3/Mirrorhalf wing-1, Face<1>@wing assy-1/half wing-1, Face<2>@wing assy-1/half wing-1
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    Goals
+                
+                Name                        	Unit   	Value     	Progress   	Criteria         	Delta            	Use in convergence 
+                GG Minimum Velocity (Z) 1   	m/s    	-26.275   	30         	0.0218899487     	0.0731387128     	On                 
+                GG Average Velocity (Z) 1   	m/s    	-20.018   	100        	0.000684982002   	0.000229768477   	On                 
+                GG Maximum Velocity (Z) 1   	m/s    	5.369     	41         	0.322344668      	0.787709306      	On                 
+                GG Force (Y) 1              	N      	22.804    	100        	0.444669295      	0.293079629      	On                 
+                GG Force (Z) 1              	N      	-13.434   	100        	0.609237029      	0.167855692      	On                 
+                SG Force (Y) 1              	N      	-10.985   	100        	0.240114585      	0.0459691897     	On                 
+
+    General Info
+                Run at:   DESKTOP-65CHA6T
+                Number of cores:   8
+                Iterations:   432
+                CPU time:   2106 s
+
+        Log
+                Mesh generation started	0:   22:21:04 , Jan 07
+                Mesh generation normally finished	0:   22:21:14 , Jan 07
+                Preparing data for calculation	0:   22:21:14 , Jan 07
+                Calculation started	0:   22:21:23 , Jan 07
+                Calculation finished	432:   22:56:32 , Jan 07
