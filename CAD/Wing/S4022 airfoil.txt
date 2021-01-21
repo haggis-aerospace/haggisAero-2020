@@ -1,4 +1,4 @@
-1mm 0mm 0mm
+
 1mm 0mm 0mm
 0.99mm 0.01mm 0mm
 0.97mm 0.01mm 0mm
@@ -58,5 +58,4 @@
 0.94mm 0.01mm 0mm
 0.97mm 0.01mm 0mm
 0.99mm 0mm 0mm
-1mm 0mm 0mm
 1mm 0mm 0mm

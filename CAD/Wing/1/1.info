@@ -1,0 +1,105 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2019 SP2.0. Build: 4471
+                Computer name:   DESKTOP-9BAP4BE
+                User name:   deleteme
+                Processors:   Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+                Memory:   16271 MB / 134217727 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.18363)
+                CAD version:   SOLIDWORKS 2019 SP2.0
+                CPU speed:   2801 MHz
+
+    General Info
+                Model:   test wing.SLDPRT
+                Project name:   Project(1)
+                Project path:   C:\Users\zarec\Documents\haggisAero-2020\CAD\Wing\1
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (exclude internal spaces)
+                Exclude cavities without flow conditions :   On
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   On
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Free surface:   Off
+                Default roughness:   0 micrometer
+
+        Gravitational Settings
+                X component:   0 m/s^2
+                Y component:   -9.80 m/s^2
+                Z component:   0 m/s^2
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.130 m
+                X max:   0.298 m
+                Y min:   -0.083 m
+                Y max:   0.099 m
+                Z min:   -0.078 m
+                Z max:   1.278 m
+                X size:   0.428 m
+                Y size:   0.182 m
+                Z size:   1.356 m
+
+    Goals
+
+        Global Goals
+
+            GG Minimum Total Pressure 1
+                Type:   Global Goal
+                Goal type:   Total Pressure
+                Calculate:   Minimum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Maximum Total Pressure 1
+                Type:   Global Goal
+                Goal type:   Total Pressure
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Minimum Velocity 1
+                Type:   Global Goal
+                Goal type:   Velocity
+                Calculate:   Minimum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Maximum Velocity 1
+                Type:   Global Goal
+                Goal type:   Velocity
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Force (X) 1
+                Type:   Global Goal
+                Goal type:   Force (X)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Force (Y) 1
+                Type:   Global Goal
+                Goal type:   Force (Y)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    General Info
+                Iterations:   0
+                CPU time:   0 s
+
+        Log
+                Mesh generation started	0:   12:39:35 , Jan 16
+                Mesh generation normally finished	0:   12:39:51 , Jan 16
+                Preparing data for calculation	0:   12:39:51 , Jan 16
+                Calculation started	0:   12:40:08 , Jan 16
+                Calculation finished	95:   12:55:05 , Jan 16
