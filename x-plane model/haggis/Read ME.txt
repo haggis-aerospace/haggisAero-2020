@@ -1,0 +1,9 @@
+Team #24, University of Dundee, Haggis Aerospace
+
+prefered cruise speed - 20 m/s or 40 knots
+
+We couldnt make our plane tilt the wing and motors in xplane, so we ask that you carry out all the tests as a fixed wing.
+We left the rear motor on the plane to simulate drag, however for it to not activate, please in joystick setup change 
+"throtle" to "horizontal throtle. The wing may look flat but it should funtion as the designed airfoil.
+
+thank you and good luck 
